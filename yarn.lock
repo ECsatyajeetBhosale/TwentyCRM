@@ -3754,6 +3754,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.11.2":
+  version: 7.28.6
+  resolution: "@babel/runtime@npm:7.28.6"
+  checksum: 10c0/358cf2429992ac1c466df1a21c1601d595c46930a13c1d4662fde908d44ee78ec3c183aaff513ecb01ef8c55c3624afe0309eeeb34715672dbfadb7feedb2c0d
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.18.10, @babel/template@npm:^7.20.7, @babel/template@npm:^7.22.15, @babel/template@npm:^7.22.5, @babel/template@npm:^7.25.9, @babel/template@npm:^7.27.2, @babel/template@npm:^7.3.3":
   version: 7.27.2
   resolution: "@babel/template@npm:7.27.2"
@@ -10355,22 +10362,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lingui/core@npm:5.1.2":
-  version: 5.1.2
-  resolution: "@lingui/core@npm:5.1.2"
+"@lingui/core@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@lingui/core@npm:3.0.0"
   dependencies:
-    "@babel/runtime": "npm:^7.20.13"
-    "@lingui/message-utils": "npm:^5.1.2"
-    unraw: "npm:^3.0.0"
-  peerDependencies:
-    "@lingui/babel-plugin-lingui-macro": 5.1.2
-    babel-plugin-macros: 2 || 3
-  peerDependenciesMeta:
-    "@lingui/babel-plugin-lingui-macro":
-      optional: true
-    babel-plugin-macros:
-      optional: true
-  checksum: 10c0/94092bc8630395af5093c0661c1d8f8d6525f09d55be5e68f948e5b9c79e47ef627b12c6102dbe764113695e477a6bb46caae335869b4ef818e452ef202520ac
+    "@babel/runtime": "npm:^7.11.2"
+    make-plural: "npm:^6.2.2"
+    messageformat-parser: "npm:^4.1.3"
+  checksum: 10c0/a8a19a8e53f962fd3a672d424e58d8ce773e5971f968de112d922b09503182ea81f8be44dce3f73f12012db8e421fc1ed2d763a265a9005a3a109287e1f4e197
   languageName: node
   linkType: hard
 
@@ -43761,6 +43760,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"make-plural@npm:^6.2.2":
+  version: 6.2.2
+  resolution: "make-plural@npm:6.2.2"
+  checksum: 10c0/eed43ea274e680a7e0a9c8aca6e1131679dfee9ec1a3e2cf0f28b5a7eb8a9b79e41a2f3af78ca8b8d5f6e67ec06079d2c53e89600d06d5eb06a8957cc9fb6ade
+  languageName: node
+  linkType: hard
+
 "make-synchronized@npm:^0.2.10":
   version: 0.2.10
   resolution: "make-synchronized@npm:0.2.10"
@@ -44561,6 +44567,13 @@ __metadata:
     "@types/node":
       optional: true
   checksum: 10c0/2cf9a31228ae6441428a750b67beafec062cc0d693942045336dbe6bfb44507e0ca42854a46f483ebd97e4d78cbc31322b3b85f9648b60fa7a4b28fc0f858f51
+  languageName: node
+  linkType: hard
+
+"messageformat-parser@npm:^4.1.3":
+  version: 4.1.3
+  resolution: "messageformat-parser@npm:4.1.3"
+  checksum: 10c0/e930c299d1e201cf13767571f2d182f7e451d0c8fb8ffa6535e9d06757213713a337559511b1a2fe1b5ad5a8f5df939bab80dfc1d2c6982f0a46eb1da9ab0891
   languageName: node
   linkType: hard
 
@@ -58456,13 +58469,6 @@ __metadata:
     picomatch: "npm:^4.0.3"
     webpack-virtual-modules: "npm:^0.6.2"
   checksum: 10c0/273c1eab0eca4470c7317428689295c31dbe8ab0b306504de9f03cd20c156debb4131bef24b27ac615862958c5dd950a3951d26c0723ea774652ab3624149cff
-  languageName: node
-  linkType: hard
-
-"unraw@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "unraw@npm:3.0.0"
-  checksum: 10c0/cd1e7a961c8dc075bdf07300bc046da6bc8c4f1b88c68191c392520f0c64914fa783d48f2431c668f79b1afbd4bab16e864c7aca3cc06ddc94567c1fec114b43
   languageName: node
   linkType: hard
 
